@@ -1,0 +1,31 @@
+/* GLOBAL */
+body {
+    font-family: "Cabin", sans-serif;
+}
+/* LOCAL */
+.tipoLetra {
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 200%;
+}
+
+
+  /* ENCABEZADO */
+li a:hover {
+    opacity: 50%;
+}
+
+
+#menuprincipal{
+    clear: both;
+    text-align: right;
+}
+
+
+#Mis-trabajos .image-top {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
