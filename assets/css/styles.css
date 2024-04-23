@@ -1,25 +1,38 @@
-/* GLOBAL */
-body {
-    font-family: "Cabin", sans-serif;
-}
-/* LOCAL */
-.tipoLetra {
-    font-family: "Lobster", sans-serif;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.fuente_comic{
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
     font-style: normal;
-    font-size: 200%;
+  }
+
+/* GLOBAL */
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
 }
 
-
-  /* ENCABEZADO */
-li a:hover {
-    opacity: 50%;
+.container{
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
+.d-flex{
+    display: flex;
+}
+.justify-contect-between
+{
+    justify-content: space-between;
+}
 
-#menuprincipal{
-    clear: both;
-    text-align: right;
+/* NAVBAR */
+.nav-item{
+    color: #bbbaba;
+}
+.nav-item:hover{
+    color:#ffffff;
+    transition: 2s;
 }
 
 
@@ -28,4 +41,33 @@ li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+/* DESTACADOS */
+.card{
+    cursor: default;
+    transition: all 500ms ease;
+}
+
+.card-body{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.empresaFooter {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #bbbaba;
+}
+
+#icono{
+    font-size: 20em;
+    color:white
 }
